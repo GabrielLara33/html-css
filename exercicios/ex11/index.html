@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt.br
+">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html</title>
+    <h1>Img Dinâmicas</h1>
+    <p>
+        <picture>
+            <source media="(max-width: 750px)" srcset="imagens/img.p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagens/imagem.m.png" type="image/png">
+            <img src="imagens/img.g.png" alt="imagens flexivel">
+        </picture>
+    </p>
+    <h1>Vamos aprender  a reproduzir audio em html5       </h1>
+
+<audio  preload="metadata"autoplay controls loop
+>
+<source src="me gusta tu.mp3" type="audio/mpeg">
+<source src="me gusta tu.ogg" type="audio/ogg">
+<source src="me gusta tu.wav" type="audio/wav">
+</audio>
+<p>Infelizmente seu navegador não conasegue reproduzir este audio <a href="me gusta tu.mp3">Clique aqui para download do arquivo</a></p>
+
+
+</head>
+<body>
+    
+</body>
+</html>
