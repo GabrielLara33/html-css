@@ -14,14 +14,21 @@
 header{
     background-color: black;
     color: white;
-    height: 200px;
+    padding-top: 50px;
+    padding-bottom : 50px;
     text-align: center;
 }
 header>h1{
     padding: 20px;
     text-decoration: dotted;
     font-family: small-caps;
-    font-size: 70px;
+    font-size: 60px;
+    font-variant: small-caps;
+
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 
  header>p>a:hover{ 
@@ -32,7 +39,7 @@ header>h1{
 
 }
 header>p{
-    color: aqua;
+    color: rgb(185, 191, 191);
 }
 
 section{
@@ -44,6 +51,9 @@ section{
 }
 section.s1{
     background-color: rgba(215, 210, 210, 0.858);
+    line-height: 6vh;
+    text-shadow: 17px 10px 5px rgba(0, 0, 0, 0.385);
+
 
     
 }
@@ -55,7 +65,7 @@ section.s2{
 }
 section.s3{
     background-color: white;
-    line-height: 9vh;
+    line-height: 6vh;
     text-shadow: 17px 10px 5px rgba(0, 0, 0, 0.385);
 
     
@@ -96,4 +106,8 @@ section#img2{
         line-height: 9vh;
 
     }
- 
+ section.s5{
+    line-height: 6vh;
+    text-shadow: 17px 10px 5px rgba(0, 0, 0, 0.385);
+
+ }
